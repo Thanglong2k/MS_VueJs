@@ -23,9 +23,9 @@
 import Loading from './components/commons/Loading.vue'
 import Popup from './components/commons/Popup.vue'
 import Toast from './components/commons/Toast.vue'
-import Header from './components/layouts/Header.vue'
-import Main from './components/layouts/Main.vue'
-import Navbar from './components/layouts/Navbar.vue'
+import Header from './components/layouts/TheHeader.vue'
+import Main from './components/layouts/TheMain.vue'
+import Navbar from './components/layouts/TheNavbar.vue'
 
 
 

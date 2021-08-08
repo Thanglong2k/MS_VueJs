@@ -35,7 +35,7 @@
                 @changeCurrentPage="changeCurrentPage"
                 
         />
-        <BaseDialog  v-if="isDisplay"
+        <EmployeeDialog  v-if="isDisplay"
             v-on:changeDisplayFalse="displayFalse"
             :employeeId="employeeId"
             :Employee="Employee"
@@ -48,15 +48,15 @@
 </template>
 
 <script>
-import BaseDialog from '../commons/Dialogs/BaseDialog.vue'
-import FilterBar from '../commons/FilterBar.vue'
+import EmployeeDialog from './EmployeeDialog.vue'
+import FilterBar from './EmployeeFilterBar.vue'
 import Grid from '../commons/Grid.vue'
 import Paging from '../commons/Paging.vue'
 import EmployeeAPI from "../../api/components/EmployeeApi.js"
 import DepartmentAPI from "../../api/components/DepartmentApi.js"
 import PositionAPI from "../../api/components/PositionApi.js"
 export default {
-  components: { FilterBar, Grid, Paging, BaseDialog },
+  components: { FilterBar, Grid, Paging, EmployeeDialog },
     data(){
         return{
             test:"hihi",

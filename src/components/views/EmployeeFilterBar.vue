@@ -46,7 +46,7 @@
 
 <script>
 
-import Dropdown from "../commons/Dialogs/Dropdown.vue"
+import Dropdown from "../commons/vCombobox/Dropdown.vue"
 import EmployeeAPI from "../../api/components/EmployeeApi.js"
 export default {
     name:"FilterBar",

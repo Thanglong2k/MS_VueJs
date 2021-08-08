@@ -251,9 +251,9 @@
 </template>
 
 <script>
-import Dropdown from './Dropdown.vue'
-import EmployeeAPI from '../../../api/components/EmployeeApi.js'
-import InputForm from './InputForm.vue'
+import Dropdown from '../commons/vCombobox/Dropdown.vue'
+import EmployeeAPI from '../../api/components/EmployeeApi.js'
+import InputForm from '../commons/InputForm.vue'
 
 export default {
     name:"BaseDialog",
@@ -512,8 +512,8 @@ export default {
 </script>
 
 <style>
-@import url("../../../assets/css/common/common.css");
+@import url("../../assets/css/common/common.css");
 /* @import url("../../../assets/css/common/tooltip.css"); */
-@import url("../../../assets/css/page/employee.css");
+@import url("../../assets/css/page/employee.css");
 </style>
                 

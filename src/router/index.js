@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Employee',
-    component: () => import('../components/views/Content.vue')
+    component: () => import('../components/views/EmployeeIndex.vue')
    },
    {
     path: '/customer',

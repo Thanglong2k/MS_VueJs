@@ -1,0 +1,81 @@
+﻿.input {
+    
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    height:40px;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    height: 100%;
+    padding: 10px 16px;
+    border: none;
+    box-sizing:border-box;
+    border-radius: 4px;
+    outline: none;
+    
+}
+.input:focus-within{
+   
+    border: 1px solid #019160;
+    font-size:13px;
+    color:#000000;
+}
+.input:focus-within .dropdown-button-select{
+   
+    border-left: 1px solid #019160;
+    font-size:13px;
+    color:#019160;
+}
+input::placeholder{
+    font-size:11px;
+}
+.input-search{
+    padding-left:40px;
+    width:250px;
+    border: 1px solid #bbbbbb;
+    height: 40px !important;
+}
+
+.error-border {
+    border: 1px solid #FF4747;
+}
+.success-border {
+    border: 1px solid #019160;
+}
+.clear-input-area{
+    width: 34px;
+    min-width: 34px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    
+}
+.clear-input{
+    
+    background-image: url('../../icon/x.svg');
+    border-radius: 50% 50%;
+    width: 20px;
+    height:20px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-color: #e9ebee;
+    background-position:center;
+    cursor: pointer;
+   
+}
+.placeholder-money{
+    width: 34px;
+    min-width: 34px;
+    padding-right: 10px;
+    display: flex;
+    color: #bbbbbb;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+}

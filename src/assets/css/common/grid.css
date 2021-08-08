@@ -1,0 +1,82 @@
+﻿.grid {
+    overflow-x: auto;
+
+    margin:16px 16px 0 16px;
+    
+
+}
+/* table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    
+  } */
+/* table tbody{
+    overflow-y: auto;
+} */
+
+  th {
+    background: #ffffff;
+    position: sticky;
+    top: 0; 
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  }
+table {
+    /* table-layout: fixed;
+    width: 100%;
+    top:0; */
+    
+    border-collapse: collapse;
+}
+
+    table thead th, table tbody td {
+        border-bottom: 1px solid #bbbbbb;
+        height:41px;
+        padding: 0 10px;
+        /* width: 150px; */
+        box-sizing: border-box;
+        /*xử lý chấm chấm đuôi khi text dài*/
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+        min-width: 100px;
+        max-width: 150px;
+    }
+    table tbody tr:hover{
+        background-color:#a7a3a3;
+    }
+    /*scroll strong tbody*/
+/* table tbody {
+    display: block; 
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 600px;
+} */
+
+/* table thead tr {
+    display: block;
+} */
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+tr:nth-child(odd) {
+    background-color: #cfcbcb;
+}
+/*design scroll bar*/
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background:#bbbbbb;
+    border-radius:4px;
+}
+
+

@@ -1,0 +1,94 @@
+﻿.dropdown-list {
+    height: 40px;
+    width: 250px;
+    border: 1px solid #bbbbbb;
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 24px;
+    background: #ffffff;
+    align-items: center;
+    
+}
+    .dropdown-list .dropdown-button-select {
+        width: 40px;
+        height: 39px;
+        border-left: 1px solid #bbbbbb;
+        /* background-image: url('../../icon/chevron-down-solid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px; */
+        cursor: pointer;
+        line-height: 39px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 0 4px 4px 0;
+        
+    }
+    .dropdown-list:not(.dropdown) .dropdown-button-select:hover {
+        background-color:#bbbbbb;
+    }
+    .dropdown-list .dropdown-list-box{
+        position:absolute;
+        width:100%;
+        box-sizing:border-box;
+        top:40px;
+        background-color:#ffffff;
+        box-shadow:1px 1px 10px #bbbbbb;
+        z-index:2;
+    }
+    .dropdown-list .item-list {
+        cursor: pointer;
+        height: 40px;
+        align-items: center;
+        line-height: 40px;
+ 
+        display: flex;
+        
+    }
+    .dropdown-list .item-list:hover
+    , .dropdown-list .item-list[tabindex] {
+        background-color: #E9EBEE;
+    }
+    .dropdown-list .item-list:active {
+        background-color: #019160;
+        color: #ffffff;
+            
+    }
+    .selected {
+        background-color: #019160 !important;
+        color: #ffffff;
+    }
+    .selected .icon-check {
+        background-image: url('../../icon/check.svg');
+        
+    }
+.dropdown-list .item-list:active .icon-check {
+    background-image: url('../../icon/check.svg');
+    color:#ffffff;
+}
+.dropdown-list .dropdown-input-text{
+    border:none;
+    padding: 10px 34px 10px 16px;
+    height:100%;
+    flex:1;
+}
+   
+.dropdown-list-box .item-list .icon-check {
+    margin: 0 10px;
+}
+.dropdown-list-box .item-list .item-dropdown-text {
+    width: calc(100% - 40px);
+    height: 100%;
+}
+/* .background-button-select-up {
+    background-image: url('../../icon/chevron-up.svg') !important;
+}
+.background-button-select-down {
+    background-image: url('../../icon/chevron-down.svg');
+} */
+.error-border-dropdown {
+    border-left: 1px solid #FF4747 !important;
+}
+

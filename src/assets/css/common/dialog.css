@@ -1,0 +1,140 @@
+﻿.m-dialog{
+   /* position:relative;*/
+   font-size:13px;
+}
+.m-dialog:focus{
+
+}
+.m-dialog .dialog-modal{
+    opacity:0.5;
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background-color:black;
+    z-index:10;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+    .m-dialog .dialog-content {
+        position: fixed;
+        width: 800px;
+        height: 700px;
+        background-color: #ffffff;
+        z-index: 10;
+        top: calc(50% - 360px);
+        left: calc(50% - 400px);
+        
+        border-radius:5px;
+        
+    }
+    .m-dialog .dialog-header {
+        width: 100%;
+        display: flex;
+        margin-bottom: 24px;
+        padding: 24px 24px 0 24px;
+        box-sizing: border-box;
+    }
+    .m-dialog .dialog-body {
+        width: 100%;
+        display: flex;
+        height: calc(100% - 67px - 61px);
+        padding-left: 24px;
+        box-sizing:border-box;
+        margin-bottom:24px;
+    }
+        .m-dialog .dialog-body .dialog-body-left {
+            width:160px;
+            height:100%;
+        }
+        .m-dialog .dialog-body .dialog-body-right {
+            width: calc(100% - 160px);
+            height: 100%;
+            margin-left: 16px;
+            overflow-y:auto;
+            padding-right: 24px;
+        }
+    .m-dialog .dialog-footer {
+        width: 100%;
+        display: flex;
+        height: 60px;
+        background-color: #E9EBEE;       
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 0 0 5px 5px;
+    }
+        .m-dialog .dialog-header .dialog-header-title {
+            padding-right: 24px;
+            width: 100%;
+            font-size: 15px;
+            color: #000000;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .m-dialog .dialog-header .dialog-header-close {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .m-dialog .dialog-header .dialog-header-close button:hover {
+            background-color: #ccc;
+        }
+        .m-dialog .dialog-header .dialog-header-close button {
+            width: 30px;
+            height: 30px;
+            border-radius: 0 5px 0 0;
+            border: none;
+            background-color: #fff;
+            outline: none;
+            cursor: pointer;
+            background-image: url("../../icon/x.svg");
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: center;
+        }
+
+.form-title-solid {
+    background-color: #019160;
+    height: 3px;
+    width: 80px;
+    margin:8px 0;
+}
+.form-group {
+    
+    margin-top:24px;
+}
+.dialog-body-right .form-group:first-child {
+    margin-top: 0;
+}
+.form-group .form-content .m-row:first-child {
+    margin-top: 0;
+}
+.required{
+    color:red;
+}
+
+.img-field {
+    width: 160px;
+    height: 160px;
+    background-image: url("../../img/default-avatar.jpg");
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #bbbbbb;
+}
+.img-field svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    fill: #BBBBBB;
+}
+.img-required {
+    text-align: center;
+}
+.width-form{
+    width: 100%;
+
+}

@@ -1,0 +1,8 @@
+﻿.grid-employee {
+    height: calc(100vh - 261px); /*57:paging,41:search,73:button*/
+   
+}
+.width-form .dropdown-form{
+    width:100% !important;
+    margin:0 !important;
+}

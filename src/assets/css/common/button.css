@@ -1,0 +1,95 @@
+﻿.m-btn {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: GoogleSans-Regular;
+    padding:0 16px;
+    display:flex;
+    align-items:center;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    }
+.m-btn:hover{
+    background-color:#2FBE8E;
+}
+.m-btn .m-btn-icon {
+    background-position: center;
+}
+.m-btn .btn-text{
+    margin-left:8px;
+}
+.m-second-button {
+    background-color: #bbbbbb;
+    border-radius: 4px;
+    color: #000000;
+    padding: 16px;
+    text-align: center;
+    height: 40px;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+.m-second-button:hover{
+    background-color:#e9ebee;
+}
+.m-btn-refresh, .m-btn-delete {
+    border: 1px solid #bbbbbb;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    outline: none;
+    height: 40px;
+    width: 40px;
+}
+.m-btn-refresh {
+    background-image: url("../../icon/refresh.png");
+    margin-left:4px;
+}
+.m-btn-delete {
+    background-image: url("../../icon/delete.svg");
+}
+
+    /*button form*/
+.btn-default {
+    cursor: pointer !important;
+    padding: 0 16px;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px 24px 10px 16px;
+    background-color: #bebaba;
+    max-width: 120px;
+    min-width: 60px;
+    font-family: GoogleSans-Regular;
+    align-items: center;
+}
+
+.btn-green {
+    color: #ffffff;
+    background-color: #019160;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .btn-green:hover {
+        background-color: #2FBE8E;
+    }
+
+    .btn-green:active {
+        background-color: #01B075;
+    }
+.btn-red {
+    color: #ffffff;
+    background-color: #f65452;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .btn-red:hover {
+        background-color: #f65354;
+    }
+
+    

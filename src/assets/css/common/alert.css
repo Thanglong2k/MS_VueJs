@@ -1,0 +1,77 @@
+﻿.toast {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgb(0, 0, 0,0.16);
+    box-sizing: border-box;
+    height: 48px;
+    position: fixed;
+    bottom: 32px;
+    transition: all linear .3s;
+    right: 32px;
+    z-index: 10;
+    animation: slideInLeft ease .3s, fadeOut linear 1s 3s forwards;/*delay 3s mới mờ đi,forwards là để dừng lại điểm cuối*/
+}
+
+/*slide trượt từ bên phải vào*/
+@keyframes slideInLeft{
+    from {
+        opacity:0;
+        transform: translateX(calc(100px + 32px));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/*mờ đi*/
+@keyframes fadeOut{
+    to{
+        opacity:0;
+    }
+}
+.toast-icon{
+    font-size:24px;
+    color:#47d864;
+}
+.toast-body{
+    flex-grow:1;
+    display:flex;
+}
+.toast-title{
+    font-size:14px;
+    font-weight:600;
+    color:#000000;
+    margin:0;
+}
+.toast-msg {
+    color: #000000; 
+    line-height: 1.5;
+}
+.toast-icon,
+.toast-close{
+    padding:0 16px;
+}
+.toast-close {
+    font-size: 24px;
+    color:rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+.toast-success .toast-icon, .toast-success .toast-close {
+    color: #04af75;
+}
+
+.toast-error .toast-icon, .toast-error .toast-close {
+    color: #eb5855;
+}
+.toast-info .toast-icon, .toast-info .toast-close {
+    color: #04af75;
+}
+
+.toast-warning .toast-icon, .toast-warning .toast-close {
+    color: #eb5855;
+}

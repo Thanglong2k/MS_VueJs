@@ -1,0 +1,60 @@
+﻿.navbar {
+    float:left;
+    width: 220px;
+    height: calc(100vh - 61px);
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+}
+    
+    .navbar .navbar-content {
+        width: 100%;
+    }
+        .navbar .navbar-content .nav-item {
+            display:flex;
+            width:100%;
+            height:44px;
+            padding:0 16px;
+            line-height:44px;
+            box-sizing:border-box;
+            color: black;
+        }
+        .navbar .navbar-content .nav-item:hover {
+            font-size: 13px;
+            background-color: #e5e5e5;
+            color: #000000;
+        }
+        .navbar .navbar-content .nav-item:focus {
+            font-size: 13px;
+            background-color: #019160;
+            color: #ffffff;
+        }
+            .navbar .navbar-content .nav-item .nav-item-icon {
+                width: 20px;
+                height: 20px;
+                background-size:contain;
+                background-repeat:no-repeat;
+                align-self:center;
+                
+            }
+            .navbar .navbar-content .nav-item .nav-item-icon:focus {
+                color: #ffffff;
+                
+            }
+            .nav-item .nav-item-document-online {
+                background-image: url('../../icon/document-online.png');
+            }
+            .nav-item .nav-item-report {
+                background-image: url('../../icon/report.png');
+            }
+            .nav-item .nav-item-dashboard {
+                background-image: url('../../icon/dashboard.png');
+            }
+            .nav-item .nav-item-dic-employee {
+                background-image: url('../../icon/dic-employee.png');
+            }
+            .nav-item .nav-item-setting {
+                background-image: url('../../icon/setting.png');
+            }
+.navbar .navbar-content .nav-item .nav-item-text {
+    padding-left:8px;
+}

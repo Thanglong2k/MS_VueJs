@@ -1,0 +1,101 @@
+﻿.header {
+    float: left;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    justify-content: space-between;
+    display: flex;
+    background-color: #FFFFFF;
+    
+}
+    .header .header-left {
+        width: 220px;
+        height: 100%;
+        border-right: 1px solid #dedede;
+       
+    }
+    .header-left .logo-site, .header-left .logo-box {
+        display: flex;
+        width: inherit;
+        height: 60px;
+        align-items:center;
+    }
+
+    .header-left .logo-box {
+        padding: 12px 16px;
+        box-sizing: border-box;
+    }
+    /*Logo page*/
+    .header-left .logo-site .logo-box .toggle-icon {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../../assets/img/toggle.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .header-left .logo-site .logo-box .amis-logo {
+        margin-left: 10px;
+        width: calc(100% - 10px - 24px - 16px); /*10px: margin, 24px:icon, 16px:padding của logo-box*/
+        height: 24px;
+        background-image: url('../../../assets/img/cukcuk-logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+.header .header-right {
+    width: calc(100% - 221px);
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+.select-restaurent {
+    border: none;
+    font-weight: bold;
+    padding: 0 16px;
+}
+
+.header-region {
+    display: flex;
+    width:245px;
+}
+/*.region_dropdown {
+    margin-right: 10px;
+}*/
+.account-info {
+    display: flex;
+    align-items: center;
+}
+.account-avartar {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/icon/avatar-default.png');
+}
+.account-info .right-item {
+    margin-left: 16px;
+}
+
+.header-region #dropdown-restaurent {
+    margin-left: 0 !important;
+    border: none;
+    padding: 10px 0;
+    height: 60px;
+    box-sizing: border-box;
+    
+}
+#dropdown-restaurent input{
+    font-weight:bold;
+    width:calc(100% - 40px);
+}
+#dropdown-restaurent .dropdown-button-select{
+    border-left:none;
+    width:40px;
+}
+#dropdown-restaurent .dropdown-list-box {
+    top:50px;
+}
+

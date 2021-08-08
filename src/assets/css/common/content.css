@@ -1,0 +1,105 @@
+﻿.content{
+    width: calc(100% - 221px);
+    height: calc(100vh - 61px);
+    background-color: #e9ebee;
+    position: absolute;
+    top: 61px;
+    left: 221px;
+}
+
+/*Header content*/
+.content .header-content {
+    padding: 16px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+    .content .header-content .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content .header-content .content-feature {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /*Filter bar*/
+    .content .filter-bar {
+        display:flex;
+        
+    }
+        .content .filter-bar .filter-left {
+            display: flex;
+            
+        }
+    /*Paging bar*/
+    .content .paging-bar {
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 16px;
+        border-top: 1px solid #bbbbbb;
+        position: relative;
+        box-sizing: border-box;
+    }
+.paging-bar .page-number-show, .paging-bar .row-limit {
+    height: 100%;
+    line-height: 35px;
+    padding: 0 10px;
+    
+    border-radius: 3px;
+}
+.paging-bar .row-limit{
+    background: #ffffff;
+}
+.paging-bar .paging-number{
+    height:100%;
+}
+
+    .paging-bar .paging-number .pagination:not(.page-move){
+        display: inline-block;
+        border: 1px solid #bbbbbb;
+        margin-left:10px;
+        width: 30px;
+        height: 30px;
+        float: left;
+        line-height:30px;
+        text-align:center;
+        border-radius: 50%;
+        text-decoration:none;
+        color:black;
+        background-color:#e9ebee;
+
+    }
+        
+        .paging-bar .paging-number .pagination.page-move {
+            display: inline-block;
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+            float: left;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border-radius: 4px;
+        }
+        .paging-bar .paging-number .pagination:not(.page-move):hover, .paging-bar .paging-number .pagination.page-move:hover {
+            background-color: #ffffff;
+        }
+            /* .paging-bar .paging-number .pagination:not(.page-move):focus, .paging-bar .paging-number .pagination.page-move:focus {
+                background-color: #019160;
+                color:#ffffff;
+            } */
+            .paging-bar .paging-number .pagination:not(.page-move)[currentPage]{
+                background-color: #019160;
+                color:#ffffff;
+            }
+        .icon-page {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+
+        
+        

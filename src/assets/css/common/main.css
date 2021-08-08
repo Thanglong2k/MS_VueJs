@@ -1,0 +1,34 @@
+﻿/* @import url('dropdown-list.css');  */
+body {
+    margin:0;
+    font-family:GoogleSans-Regular;
+    font-size:13px;
+}
+@font-face {
+    font-family: 'GoogleSans-Black';
+    src: url('../../font/GoogleSans-Black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../../font/GoogleSans-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../../font/GoogleSans-Italic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Light';
+    src: url('../../font/GoogleSans-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../../font/GoogleSans-Regular.otf') format('opentype');
+}
+/* @import url("./button.css");
+@import url("./common.css");
+@import url("./alert.css");
+@import url("./dropdown-list.css");
+@import url("./icon.css");
+@import url("./input.css");
+@import url("./toolbar.css");
+@import url("./tooltip.css"); */
